@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         recycleradapter = new RecyclerAdapter();
         recyclerView.setAdapter(recycleradapter);
     }
+    // 엔터키 처리
     private class EditTextOnKeyListener implements View.OnKeyListener{
         @Override
         public boolean onKey(View v, int keyCode, KeyEvent event) {
